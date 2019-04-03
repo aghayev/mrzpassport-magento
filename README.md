@@ -6,7 +6,7 @@ A [Passport Mrz Validation][Passport Mrz Validation] extension for [Magento](htt
 Documentation
 -------------
 
-This extension allows store owners to collects and validates 2-line mrz code of a machine-readable international passport for cases such as: 
+This extension allows store owners to collect and validate 2-line mrz code of a machine-readable international passport for cases such as: 
 
 * Age verification when buying access to age-restricted, adult/18+ content
 * Eligibility check when buying railcard or other travel documents online
