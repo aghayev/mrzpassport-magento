@@ -34,7 +34,7 @@ Authors
 License
 -------
 
-Passport Mrz Validation is distributed under the Apache License 2.0. For more information, see <https://www.apache.org/licenses/LICENSE-2.0/>.
+Passport Mrz Validation is licensed under the Apache License 2.0. For more information, see <https://www.apache.org/licenses/LICENSE-2.0/>.
 
 
 [Passport Mrz Validation]:		https://github.com/aghayev/passportmrzvalidation-magento/
