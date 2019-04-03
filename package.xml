@@ -7,7 +7,7 @@
     <channel>community</channel>
     <extends/>
     <summary>The extension collects and validates 2-line mrz code of a machine-readable international passport.</summary>
-    <description>The extension allows shop owners to collects and validates 2-line mrz code of a machine-readable international passport for cases such as: age verification when buying access to age-restricted, adult/18+ content, etc., eligibility check when buying railcard or other travel documents online,  anti-money laundering check carried out by online gambling websites.</description>
+    <description>The extension allows store owners to collect and validate 2-line mrz code of a machine-readable international passport for cases such as: age verification when buying access to age-restricted, adult/18+ content, etc., eligibility check when buying railcard or other travel documents online,  anti-money laundering check carried out by online gambling websites.</description>
     <notes>Key features:&#xD;
 Standard Magento code functionality&#xD;
 Validates Passport&#x2019;s identity data automatically on submission according to ICAO 9303&#xD;
