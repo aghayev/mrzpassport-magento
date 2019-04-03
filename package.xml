@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>PassportMrzValidation</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension collects and validates 2-line mrz code of a machine-readable international passport.</summary>
+    <description>The extension allows shop owners to collects and validates 2-line mrz code of a machine-readable international passport for cases such as: age verification when buying access to age-restricted, adult/18+ content, etc., eligibility check when buying railcard or other travel documents online,  anti-money laundering check carried out by online gambling websites.</description>
+    <notes>Key features:&#xD;
+Standard Magento code functionality&#xD;
+Validates Passport&#x2019;s identity data automatically on submission according to ICAO 9303&#xD;
+Recognize passports of all countries&#xD;
+Decodes submitted identity data which is available to view under Admin Panel&#xD;
+Easy to install and easy to set up&#xD;
+&#xD;
+</notes>
+    <authors><author><name>Imran Aghayev</name><user>aghayevi</user><email>imran.aghayev@hotmail.co.uk</email></author></authors>
+    <date>2019-03-15</date>
+    <time>13:48:30</time>
+    <contents><target name="magecommunity"><dir name="Aghayevi"><dir name="Passportmrz"><dir name="Block"><dir name="Adminhtml"><dir name="Customer"><file name="Tab.php" hash="299c6151511622afd3dc575246ce86c7"/></dir></dir><file name="Validate.php" hash="9e3a4758d3f5e0f2dcd432a2fd0fefb0"/></dir><dir name="Helper"><file name="Data.php" hash="e4ad3d4f96bd035a995e6dd3b373c0dc"/><file name="Mrz.php" hash="11290ab4df1b6c6d87057dfda50fb9dc"/></dir><dir name="controllers"><file name="ValidateController.php" hash="789338bb6aa061544da67bd8763af305"/></dir><dir name="etc"><file name="config.xml" hash="cd555206cf87bc012297e1668d3b9e36"/></dir><dir name="sql"><dir name="aghayevi_passportmrz_setup"><file name="mysql4-install-1.0.1.php" hash="a0066c72b438c9d7a71a90b404d7ca05"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="aghayevi_passportmrz.xml" hash="abe5e3f6182efa905c7ed3744048f19e"/></dir><dir name="template"><dir name="passportmrz"><file name="tab.phtml" hash="f47242a9ec537e3ed0aa7fded5d46444"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="aghayevi_passportmrz.xml" hash="9c7dbbb071887fb27c80378488b695f2"/></dir><dir name="template"><dir name="passportmrz"><file name="validate.phtml" hash="07119cef5cb6efec593e63b05707f685"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Aghayevi_Passportmrz.xml" hash="b9f27b70f492ca2c39df2da3b4be55fb"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

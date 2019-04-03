@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <customer_account translate="label">
+        <reference name="customer_account_navigation">
+            <action method="addLink"><name>My passport details</name><path>passportmrz/validate/index</path><label>My passport details</label></action>
+        </reference>
+    </customer_account>
+    <passportmrz_validate_index>
+        <label>Customer Account Edit Form</label>
+        <update handle="customer_account"/>
+        <reference name="root">
+            <action method="setHeaderTitle" translate="title" module="customer"><title>Edit Account Info</title></action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="passportmrz/validate" name="validate" as="validate" template="passportmrz/validate.phtml">
+            </block>
+        </reference>
+
+        <reference name="left">
+          <action method="unsetChild"><name>left.permanent.callout</name></action>
+        </reference>
+
+        <update handle="customer_form_template_handle"/>
+    </passportmrz_validate_index>
+</layout>

@@ -1,0 +1,41 @@
+<div class="entry-edit">
+    <div class="entry-edit-head">
+        <h4 class="icon-head head-customer-view">Passport Details</h4>
+    </div>
+    <fieldset>
+        <table class="box-left" cellspacing="2">
+            <tbody>
+            <tr>
+                <td>
+                    <p>Passport Number Line 1: <?php echo $this->escapeHtml($this->getPassportMrzl1()) ?></p>
+
+                    <p>Passport Number Line 2: <?php echo $this->escapeHtml($this->getPassportMrzl2()) ?></p>
+
+                    <p>Passport issuing country: <?php echo $this->escapeHtml($this->getPassportIssuingCountry()) ?></p>
+
+                    <p>Passport No: <?php echo $this->escapeHtml($this->getPassportNo()) ?></p>
+
+                    <p>Nationality: <?php echo $this->escapeHtml($this->getNationality()) ?></p>
+
+                    <p>Date of birth: <?php
+                        $dob = $this->getDateOfBirth();
+                        $dobY = substr($dob, 0, 2);
+                        $dobM = str_pad(substr($dob, 3, 2), 2, 0, STR_PAD_LEFT);
+                        $dobD = str_pad(substr($dob, 5, 2), 2, 0, STR_PAD_LEFT);
+                        echo $this->escapeHtml($dobD.'/'.$dobM.'/'.$dobY) ?>
+                    </p>
+                    <p>Sex: <?php echo $this->escapeHtml($this->getSex()) ?></p>
+
+                    <p>Date of expiry: <?php
+                        $doe = $this->getDateOfExpiry();
+                        $doeY = substr($doe, 0, 2);
+                        $doeM = str_pad(substr($doe, 3, 2), 2, 0, STR_PAD_LEFT);
+                        $doeD = str_pad(substr($doe, 5, 2), 2, 0, STR_PAD_LEFT);
+                        echo $this->escapeHtml($doeD.'/'.$doeM.'/'.$doeY) ?>
+                    </p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</div>

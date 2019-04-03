@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aghayevi_Passportmrz>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Aghayevi_Passportmrz>
+    </modules>
+</config>
