@@ -8,7 +8,7 @@ Documentation
 
 This extension allows store owners to collect and validate 2-line mrz code of a machine-readable international passport for cases such as: 
 
-* Age verification when buying access to age-restricted, adult/18+ content
+* Age verification when buying access to age-restricted content
 * Eligibility check when buying railcard or other travel documents online
 * Anti-money laundering check carried out by online gambling websites
 
