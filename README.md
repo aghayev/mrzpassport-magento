@@ -22,7 +22,7 @@ Requirements
 
 ### PHP requirements:
 * Magento 1.9
-* PHP5
+* PHP 5
 
 Authors
 -------
