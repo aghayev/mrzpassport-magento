@@ -1,0 +1,11 @@
+Running on my local machine:
+
+docker start passportmrz
+
+Start following services manually
+
+/etc/init.d/apache2 start 
+/etc/init.d/mysql start
+
+Access the container via 
+http://127.0.0.1:81
