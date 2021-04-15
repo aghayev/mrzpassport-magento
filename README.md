@@ -16,6 +16,8 @@ For more information, see:
 * <https://en.wikipedia.org/wiki/Machine-readable_passport>
 * <https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf>.
 
+Sample mrz generator:
+* <https://emvlab.org/mrz>
 
 Requirements
 ------------
