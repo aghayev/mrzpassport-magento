@@ -181,6 +181,7 @@ class Aghayevi_Passportmrz_Helper_Mrz extends Mage_Core_Helper_Abstract
 
     /**
      * Check Date Of Expiry
+     * Based on icao 9303_p3_cons_en.pdf - APPENDIX A TO PART 3 EXAMPLES OF CHECK DIGIT CALCULATION (INFORMATIVE)
      *
      * @param string $data
      * @param string $optionalData
